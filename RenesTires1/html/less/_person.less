@@ -1,0 +1,80 @@
+.person {
+	margin-top: 23px;
+	.image {
+		margin: 0 auto 20px;
+		position: relative;
+	}
+	.name {
+		margin-bottom: 8px;
+		line-height: 1.2em;
+		text-transform: uppercase;
+	}
+	.position {
+		margin-bottom: 16px;
+		padding: 0;
+		font-weight: normal;
+		text-transform: none;
+		@media (max-width: 1199px) {
+			margin-bottom: 10px;
+		}
+	}
+	.text {
+		margin-bottom: 30px;
+		@media (max-width: 1199px) {
+			margin-bottom: 10px;
+		}
+	}
+}
+.person:not(.person-hor) {
+	max-width: 270px;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media (max-width: 767px) {
+	.person:not(.last) {
+		margin-bottom: 25px;
+	}
+}
+.person-hor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #dcdcdc;
+	@media (max-width: 991px) {
+		flex-direction: column;
+		text-align:center;
+		max-width: 270px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.box-shadow (0 0 15px 0 rgba(0,0,0,.15));
+	.image {
+		margin: 0;
+		width: ~'calc(50% - 15px)';
+		@media (max-width: 1199px) {
+			width: ~'calc(57% - 15px)';
+		}
+		@media (max-width: 991px) {
+			margin: 0;
+			width: 100%;
+			img {
+				max-width: none;
+				width: 100%;
+			}
+		}
+	}
+	.person-info {
+		width: ~'calc(50% + 15px)';
+		padding: 15px 30px;
+		@media (max-width: 1199px) {
+			padding: 15px 15px;
+			font-size: 14px;
+			line-height: 22px;
+			width: ~'calc(43% + 15px)'
+		}
+		@media (max-width: 991px) {
+			width: 100%;
+			padding: 20px 20px 15px
+		}
+	}
+}
