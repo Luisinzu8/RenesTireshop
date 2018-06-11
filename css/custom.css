@@ -4270,3 +4270,10 @@ body.slide-active .darkout-menu {
     -webkit-animation-name: none !important;
   }
 }
+
+.title {
+  color: red;
+  font-family: 'Audiowide', cursive;
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
