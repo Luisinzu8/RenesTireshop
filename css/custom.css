@@ -1412,6 +1412,7 @@ header .header-row .logo > a {
 header .header-right {
   float: right;
   width: calc(100% - 370px);
+  letter-spacing: .1em;
 }
 @media (max-width: 1199px) {
   header .header-right {
