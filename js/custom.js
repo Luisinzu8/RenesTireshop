@@ -149,29 +149,6 @@
 			})
 		}
 
-		// image animation in modal (appointment form)
-		$('header .appointment').on('click', function () {
-			$('html').css({
-				'overflow-y': 'hidden'
-			});
-			$('.page-header, #mainSliderWrapper').css({
-				'padding-right': getScrollbarWidth() + 'px'
-			});
-		})
-		$('.modal').on('shown.bs.modal', function () {
-			var $el = $('.animate', $(this));
-			doAnimations($el);
-		}).on('hidden.bs.modal', function () {
-			var $el = $('.animate', $(this));
-			$el.addClass('animation');
-			$('html').css({
-				'overflow-y': ''
-			})
-			$('.page-header, #mainSliderWrapper').css({
-				'padding-right': ''
-			});
-		})
-
 		// set background image inline
 		if ($('[data-bg]').length) {
 			$('[data-bg]').each(function () {

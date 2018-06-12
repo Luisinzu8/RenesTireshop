@@ -1412,6 +1412,7 @@ header .header-row .logo > a {
 header .header-right {
   float: right;
   width: calc(100% - 370px);
+  letter-spacing: .1em;
 }
 @media (max-width: 1199px) {
   header .header-right {
@@ -4268,4 +4269,11 @@ body.slide-active .darkout-menu {
     animation-name: none !important;
     -webkit-animation-name: none !important;
   }
+}
+
+.title {
+  color: red;
+  font-family: 'Audiowide', cursive;
+  padding-top: 2rem;
+  padding-left: 1rem;
 }
