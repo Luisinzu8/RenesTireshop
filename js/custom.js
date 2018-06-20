@@ -505,7 +505,7 @@
 				slidesToScroll: 1,
 				infinite: true,
 				autoplay: true,
-				autoplaySpeed: 2500,
+				autoplaySpeed: 2000,
 				dots: false,
 				arrows: true,
 				responsive: [{
