@@ -4005,6 +4005,13 @@ body.slide-active .darkout-menu {
 }
 
 /*-----  4. Custom Animation      --------*/
+@media (min-width: 1400px) {
+.img-move img {
+    position: absolute;
+    top: -140px;
+    left: -4%;
+    width: 100%;
+}
 @media (min-width: 768px) {
   .image-scale {
     position: relative;
