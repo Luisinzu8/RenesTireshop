@@ -3952,7 +3952,7 @@ body.slide-active .darkout-menu {
   .view-more-link {
     display: block;
     margin-top: 15px;
-    text-decoration: underline;
+    text-decoration: none;
   }
   .view-more-link:hover {
     text-decoration: none;
