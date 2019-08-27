@@ -156,7 +156,7 @@ h2.h-lg {
   font-family: 'Muli', sans-serif;
   font-weight: 600;
   margin: 0 0 35px;
-  color: #292929;
+  color: #ec3542;
 }
 @media (max-width: 991px) {
   h1,
@@ -192,7 +192,7 @@ h2 {
   font-family: 'Muli', sans-serif;
   font-weight: 600;
   margin: 0 0 30px;
-  color: #292929;
+  color: #ec3542;
 }
 @media (max-width: 767px) {
   h2 {
@@ -3727,159 +3727,6 @@ body.slide-active .darkout-menu {
 }
 .services-carousel .slick-dots {
   bottom: -45px;
-}
-/*-----  3.14 How it works       --------*/
-.how-works-block {
-  display: table;
-  width: 100%;
-  margin-top: 25px;
-  margin-bottom: 20px;
-}
-@media (max-width: 991px) {
-  .how-works-block {
-    display: block;
-    margin-top: 0;
-  }
-}
-.how-works-block .image img {
-  width: 100%;
-}
-.how-works-block .caption > .inside {
-  overflow: hidden;
-  display: table;
-  width: 100%;
-  margin-top: 18px;
-}
-.how-works-block .caption > .inside .number {
-  display: table-cell;
-  vertical-align: middle;
-}
-.how-works-block .caption > .inside .number span {
-  display: block;
-  width: 42px;
-  height: 42px;
-  font-size: 30px;
-  line-height: 42px;
-  font-weight: bold;
-  color: #444;
-  background-color: #fede00;
-  text-align: center;
-}
-.how-works-block .caption > .inside .text {
-  vertical-align: middle;
-  padding-left: 15px;
-  overflow: hidden;
-  display: table-cell;
-}
-.how-works-block .caption > .inside .text h5 {
-  font-weight: 600;
-  margin-bottom: 0;
-}
-@media (max-width: 991px) {
-  .how-works-block .caption > .inside .text h5 {
-    font-size: 16px;
-    line-height: 20px;
-  }
-}
-.how-works-block.shifted {
-  margin-top: -10px;
-}
-@media (min-width: 768px) {
-  .how-works-row.shifted > div:nth-child(2n) .how-works-block {
-    margin-top: 90px;
-  }
-  .how-works-row.shifted > div:nth-child(3n) .how-works-block {
-    margin-top: 34px;
-  }
-  .how-works-row.shifted > div:nth-child(4n) .how-works-block {
-    margin-top: 90px;
-  }
-  .how-works-row.shifted > div:nth-child(2n) .how-works-block .caption,
-  .how-works-row.shifted > div:nth-child(4n) .how-works-block .caption {
-    display: table-header-group;
-  }
-  .how-works-row.shifted > div:nth-child(2n) .how-works-block .caption .inside,
-  .how-works-row.shifted > div:nth-child(4n) .how-works-block .caption .inside {
-    margin-bottom: 18px;
-    margin-top: 0;
-  }
-  .how-works-row.shifted > div:nth-child(2n) .how-works-block .image,
-  .how-works-row.shifted > div:nth-child(4n) .how-works-block .image {
-    display: table-footer-group;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .how-works-row.shifted > div:nth-child(2n) .how-works-block {
-    margin-top: 40px;
-  }
-  .how-works-row.shifted > div:nth-child(3n) .how-works-block {
-    margin-top: 0;
-  }
-  .how-works-row.shifted > div:nth-child(4n) .how-works-block {
-    margin-top: 40px;
-  }
-}
-@media (max-width: 991px) {
-  .how-works-block .caption > .inside .text {
-    padding-left: 0;
-  }
-  .how-works-block .caption > .inside .number {
-    position: absolute;
-    top: -60px;
-    left: 0;
-  }
-  .how-works-block .caption > .inside {
-    position: relative;
-    overflow: visible;
-  }
-  .how-works-row > div:nth-child(2n) .how-works-block .inside .number,
-  .how-works-row > div:nth-child(4n) .how-works-block .inside .number {
-    bottom: -60px;
-    top: auto;
-  }
-}
-@media (max-width: 767px) {
-  .how-works-block {
-    max-width: 205px;
-    margin: 10px auto 30px;
-    padding: 0;
-  }
-  .how-works-block .caption .inside .text {
-    padding-left: 10px;
-  }
-  .how-works-block .image {
-    padding: 0 10px;
-  }
-  .how-works-block .caption > .inside .number {
-    position: absolute;
-    top: -60px;
-    left: 10px;
-  }
-  .how-works-block .caption > .inside {
-    position: relative;
-    overflow: visible;
-    text-align: center;
-  }
-  .how-works-row > div:nth-child(2n) .how-works-block .inside,
-  .how-works-row > div:nth-child(4n) .how-works-block .inside {
-    direction: rtl;
-  }
-  .how-works-row > div:nth-child(2n) .how-works-block .inside .number,
-  .how-works-row > div:nth-child(4n) .how-works-block .inside .number {
-    direction: ltr;
-    float: right;
-  }
-  .how-works-row > div:nth-child(2n) .how-works-block .inside .text,
-  .how-works-row > div:nth-child(4n) .how-works-block .inside .text {
-    direction: ltr;
-    padding-left: 0;
-    padding-right: 10px;
-    text-align: right;
-    width: 100%;
-  }
-  .how-works-carousel .slick-dots {
-    bottom: -15px;
-  }
 }
 /*-----  3.15 Statistic          --------*/
 .plus {
