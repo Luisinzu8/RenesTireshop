@@ -28,7 +28,6 @@
 	3.11 Services
 	3.12 GetForm
 	3.13 Promo Banner
-	3.14 How it works
 	3.15 Statistic
 	3.16 Show/Hide Block
 	3.17 Gallery Page
@@ -71,6 +70,7 @@ body {
 @media (max-width: 767px) {
   body {
     font-size: 14px;
+    font-family: 
     line-height: 22px;
   }
 }
@@ -197,6 +197,7 @@ h2 {
 @media (max-width: 767px) {
   h2 {
     font-size: 23px;
+    font-family: 'Audiowide', cursive;
     line-height: 30px;
     margin: 0 0 15px;
   }
@@ -3463,6 +3464,7 @@ body.slide-active .darkout-menu {
 /*-----  3.11 Services           --------*/
 .services-block {
   margin-top: 45px;
+  width: 100%;
 }
 @media (max-width: 991px) {
   .services-block {
@@ -3508,7 +3510,7 @@ body.slide-active .darkout-menu {
   position: relative;
 }
 .services-block .image img {
-  width: 100%;
+  width: auto;
   height: 250px;
 }
 .services-block .service.dark {
@@ -3545,7 +3547,7 @@ body.slide-active .darkout-menu {
 @media screen and (max-width: 767px) {
   .services-block {
     margin: 20px auto;
-    max-width: 188px;
+    max-width: auto;
   }
   .services-block .service .caption {
     font-size: 13px;
@@ -3725,8 +3727,8 @@ body.slide-active .darkout-menu {
     margin: 0 -15px;
   }
 }
-.services-carousel .slick-dots {
-  bottom: -45px;
+.services-carousel .slick-dots li {
+  display: none;
 }
 /*-----  3.15 Statistic          --------*/
 .plus {
@@ -4078,6 +4080,8 @@ body.slide-active .darkout-menu {
   outline: none;
   border-radius: 50%;
   background: #c1c1c1;
+  border:1px black; 
+
 }
 .slick-dots li button:after {
   display: none;
@@ -4090,12 +4094,19 @@ body.slide-active .darkout-menu {
 .slick-dots li button:focus {
   outline: none;
 }
+.slick-dots li button { 
+border:1px black; 
+} 
 @media (max-width: 991px) {
   .slick-slide .animation {
     opacity: 1 !important;
     animation-name: none !important;
     -webkit-animation-name: none !important;
   }
+}
+
+.visible-xs {
+  border: 1px solid;
 }
 
 .title {
