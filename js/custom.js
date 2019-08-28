@@ -854,6 +854,7 @@
 	}
 
 	function startCarousel() {
+
 		if (plugins.servicesAltCarousel.length) {
 			slickMobile(plugins.servicesAltCarousel, 480, 1, 1);
 		}

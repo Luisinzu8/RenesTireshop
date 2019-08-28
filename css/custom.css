@@ -2334,6 +2334,14 @@ body.slide-active .darkout-menu {
     font-size: 18px;
     line-height: 42px;
     font-weight: 500;
+    /*margin-top: 20px;*/
+  }
+  #slide-nav #slidemenu .close-menu .icon-close-cross {
+    position: absolute;
+    font-size: 50px;
+    top: 8px;
+    right: 8px;
+    /*right: 8;*/
   }
   #slide-nav #slidemenu.slide-active {
     left: 0;
@@ -2350,7 +2358,7 @@ body.slide-active .darkout-menu {
   #slide-nav #slidemenu .navbar-nav {
     min-width: 0;
     width: 100%;
-    margin: 34px 0 0;
+    margin: 4px 0 0;
   }
   #slide-nav #slidemenu .navbar-nav .dropdown-menu li a {
     min-width: 0;
@@ -2426,7 +2434,6 @@ body.slide-active .darkout-menu {
     position: relative;
   }
   .page-footer .footer-map {
-    position: absolute !important;
     top: 0;
     bottom: 0;
     left: 0;
