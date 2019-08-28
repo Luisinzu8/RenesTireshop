@@ -3510,7 +3510,7 @@ body.slide-active .darkout-menu {
   position: relative;
 }
 .services-block .image img {
-  width: auto;
+  width: 100%;
   height: 250px;
 }
 .services-block .service.dark {
