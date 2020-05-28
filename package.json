@@ -1,0 +1,40 @@
+{
+  "name": "RenesTireshop",
+  "version": "1.0.0",
+  "description": "Creating a website for a business",
+  "main": "like_button.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js",
+    "type": "module"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luisinzu8/RenesTireshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luisinzu8/RenesTireshop/issues"
+  },
+  "homepage": "https://github.com/Luisinzu8/RenesTireshop#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^7.0.0-beta.3",
+    "babel-preset-react-app": "^3.1.2",
+    "braces": "^2.3.2",
+    "cors": "^2.8.5",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.0",
+    "react-calendar": "^3.1.0",
+    "react-dom": "^16.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.0.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}

@@ -22,8 +22,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Muli:100,100i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
 	<!-- Google map -->
-	  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDr3l2lELYHvdmCxPi3qljqSYnCvX7_iOk"
-  type="text/javascript"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDr3l2lELYHvdmCxPi3qljqSYnCvX7_iOk"
+  	type="text/javascript"></script>
+  	<!-- React/ReactDOM -->
+  	<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+	<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
 </head>
 
 <body class="home">
@@ -137,6 +140,10 @@
 							<p><i class="icon icon-email"></i><a href="mailto:officeone@youremail.com">officeone@youremail.com</a></p>
 						</div>
 					</div>
+					<hr>
+					<div id="react-container"></div>
+					<div id="like_button_container"></div>
+					<hr>
 					<h2 class="h-lg">What We Do</h2>
 					<p class="info">We offer full tire repair & maintenance</p>
 				</div>
@@ -433,6 +440,14 @@
 	<script src="js/plugins/jquery.countTo.js"></script>
 	<!-- Custom JavaScripts -->
 	<script src="js/custom.js"></script>
+	<!-- Load React. -->
+  	<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  	<script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+  	<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+
+  	<!-- Load our React component. -->
+  	<script src="like_button.js"></script>
+  	<script nomodule src="index.jsx"></script>
 </body>
 
 </html>
