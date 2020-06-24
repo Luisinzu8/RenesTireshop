@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Luisinzu8/RenesTireshop#readme",
   "dependencies": {
     "babel": "^6.23.0",
-    "babel-cli": "^7.0.0-beta.3",
+    "babel-cli": "^6.26.0",
     "babel-preset-react-app": "^3.1.2",
     "braces": "^2.3.2",
     "cors": "^2.8.5",
