@@ -9,7 +9,7 @@ export const Services = () => {
           <div id="serviceTwo" className="container">
             <div className="text-center">
               <div className="header-info-mobile">
-                <div className>
+                <div>
                   <p><i className="icon icon-locate" /><a href="https://goo.gl/maps/nszHrtNd88KknHWFA">130 W. Walnut Ave. Perris, CA 92571</a></p>
                   <p><i className="icon icon-phone" /><a href="tel:(951)436-1445">(951)436-1445</a></p>
                   <p><i className="icon icon-clock" />Mon - Sat: 9:00 am – 5:00 pm</p>
