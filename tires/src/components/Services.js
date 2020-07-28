@@ -16,10 +16,6 @@ export const Services = () => {
                   <p><i className="icon icon-email" /><a href="mailto:officeone@youremail.com">officeone@youremail.com</a></p>
                 </div>
               </div>
-              <hr />
-              <div id="react-container" />
-              <div id="like_button_container" />
-              <hr />
               <h2 className="h-lg">What We Do</h2>
               <p className="info">We offer full tire repair &amp; maintenance</p>
             </div>
