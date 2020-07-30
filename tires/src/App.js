@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from '../src/components/Header'
 import Slider from '../src/components/Slider'
-import Navigation from './components/Navigation'
 import Services from './components/Services'
 
 
